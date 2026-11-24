@@ -1,13 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Setup Database (Supabase)
-
-Seluruh data (profil, kategori, layanan, fasilitas, foto, testimoni, admin) dibaca dan ditulis ke Supabase. Tidak ada data dummy di dalam kode.
-
-1. Salin `.env.example` ke `.env.local`, lalu isi `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, dan `JWT_SECRET`.
-2. Jalankan `supabase/schema.sql` di SQL Editor Supabase.
-3. Buat akun admin: `npm run create-admin -- <username> <password> "<nama admin>"`.
-4. (Opsional) Jalankan `supabase/seed.sql` untuk mengisi kategori, profil, dan contoh layanan awal. Semuanya bisa diubah dari panel admin (`/admin/login`).
 
 ## Getting Started
 
